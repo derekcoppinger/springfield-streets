@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <img alt="Vue logo" src="./assets/downtown_springfield_il.jpg">
     <most-popular-streets/>
   </div>
 </template>
@@ -24,5 +24,11 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+img {
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
 }
 </style>
